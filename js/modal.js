@@ -101,6 +101,7 @@ function resetErrors() {
   border(condiCheckbox, colorDefault);
 }
 
+/* - - - All checkers - - - */
 function checkFirst() {
   return (firstForm.value !== null && firstForm.value.length >= 2)
 }
@@ -145,6 +146,7 @@ function checkCondition() {
   return conditionForm.checked;
 }
 
+/* - - - Main function to validate the form - - - */
 function validate(event) {
   event.preventDefault();
 

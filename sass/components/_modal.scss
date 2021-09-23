@@ -311,6 +311,7 @@ input {
     font-size: 16px;
 }
 
+// Modal displayed when the form is confirmed
 .modal__confirm {
     display: none;
     position: absolute;
@@ -326,6 +327,7 @@ input {
     }
 }
 
+// Error message behind inputs
 .errorValidation {
     display: none;
     font-size: 14px;
