@@ -1,0 +1,20 @@
+{
+  "name": "vincentallio_4_22092021",
+  "version": "1.0.0",
+  "description": "Mettre en place la partie Front-End du site GameOn",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css",
+    "prefix": "postcss --watch ./public/css/style.css --use autoprefixer -d ./public/css/prefixed/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yuuusuuke/VincentAllio_4_22092021.git"
+  },
+  "author": "Vincent Allio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yuuusuuke/VincentAllio_4_22092021/issues"
+  },
+  "homepage": "https://github.com/Yuuusuuke/VincentAllio_4_22092021#readme"
+}
