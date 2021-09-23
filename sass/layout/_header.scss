@@ -47,6 +47,8 @@
     .topnav a.icon {
         float: right;
         display: block;
+        margin: 0;
+        color: #ff0000;
     }
 }
 
@@ -59,6 +61,7 @@
         position: absolute;
         right: 0;
         top: 0;
+        color: #ffffff;
     }
 
     .topnav.responsive a {
@@ -73,11 +76,5 @@
 @media screen and (max-width: 540px) {
     .topnav a {
         display: none;
-    }
-
-    .topnav a.icon {
-        float: right;
-        display: block;
-        margin-top: -15px;
     }
 }

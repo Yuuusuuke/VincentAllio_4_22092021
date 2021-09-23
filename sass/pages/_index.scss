@@ -1,5 +1,4 @@
 .hero-section {
-    min-height: 93vh;
     border-radius: 10px;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -35,13 +34,13 @@
 
 .hero-headline {
     font-size: 6rem;
-    font-weight: normal;
+    font-weight: 500;
     white-space: nowrap;
 }
 
 .hero-text {
     width: 146%;
-    font-weight: normal;
+    font-weight: 400;
     margin-top: 57px;
     padding: 0;
 }

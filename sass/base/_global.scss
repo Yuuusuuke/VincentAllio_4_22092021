@@ -16,6 +16,7 @@
 /* Landing Page */
 
 body {
+    min-height: 100vh;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -35,15 +36,14 @@ img {
 }
 
 main {
+    display: flex;
     font-size: 130%;
     font-weight: bolder;
     color: black;
-    padding-top: 0.5vw;
-    padding-left: 2vw;
-    padding-right: 2vw;
+    padding: 0;
     margin: 1px 20px 15px;
     border-radius: 2rem;
     text-align: justify;
-
+    flex: 1;
 
 }
