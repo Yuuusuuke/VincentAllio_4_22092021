@@ -115,12 +115,13 @@ input {
     border: 2px solid #e54858;
 }
 
-/* 
-  input[data-error]::after {
-      content: attr(data-error);
-      font-size: 0.4em;
-      color: red;
-  } */
+
+/*input[data-error]:after {
+    content: attr(data-error);
+    font-size: 0.4em;
+    color: red;
+}*/
+
 .checkbox-label,
 .checkbox2-label {
     position: relative;
@@ -176,7 +177,7 @@ input {
 
 .checkbox2-label .checkbox-icon {
     border-radius: 4px;
-    border: 0;
+    border: 1px solid #279e7a;
     background: #c4c4c4;
 }
 
@@ -226,7 +227,7 @@ input {
 .btn-signup {
     background: #fe142f;
     display: block;
-    margin: 0 auto;
+    margin: 5px auto;
     border-radius: 7px;
     font-size: 1rem;
     padding: 12px 82px;
@@ -307,4 +308,12 @@ input {
 .text-label {
     font-weight: normal;
     font-size: 16px;
+}
+
+.errorValidation {
+    display: none;
+    font-size: 14px;
+    color: red;
+    padding: 2px 0 0 5px;
+    margin: 0;
 }
