@@ -64,6 +64,7 @@
     position: relative;
     color: #fff;
     padding-top: 10px;
+    min-height: 766px;
 }
 
 .modal-body {
@@ -308,6 +309,20 @@ input {
 .text-label {
     font-weight: normal;
     font-size: 16px;
+}
+
+.modal__confirm {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 60% 5%;
+
+    &__text {
+        font-family: var(--font-default);
+        font-size: 36px;
+        font-weight: 400;
+    }
 }
 
 .errorValidation {
