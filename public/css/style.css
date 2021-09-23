@@ -21,7 +21,7 @@ body {
   flex-direction: column;
   font-family: var(--font-default);
   font-size: 18px;
-  max-width: 1300px;
+  max-width: 1630px;
   margin: 0 auto;
 }
 
@@ -525,6 +525,7 @@ footer {
   height: 100%;
   display: block;
   padding: 0;
+  object-fit: cover;
 }
 
 .copyrights {
