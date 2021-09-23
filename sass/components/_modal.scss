@@ -313,10 +313,11 @@ input {
 
 .modal__confirm {
     display: none;
-    align-items: center;
-    justify-content: center;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
     text-align: center;
-    margin: 60% 5%;
 
     &__text {
         font-family: var(--font-default);
